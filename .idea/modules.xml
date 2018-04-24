@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/serenity-cucumber-gradle-screenplay.iml" filepath="$PROJECT_DIR$/.idea/modules/serenity-cucumber-gradle-screenplay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/serenity-cucumber-gradle-screenplay_main.iml" filepath="$PROJECT_DIR$/.idea/modules/serenity-cucumber-gradle-screenplay_main.iml" group="serenity-cucumber-gradle-screenplay" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/serenity-cucumber-gradle-screenplay_test.iml" filepath="$PROJECT_DIR$/.idea/modules/serenity-cucumber-gradle-screenplay_test.iml" group="serenity-cucumber-gradle-screenplay" />
+    </modules>
+  </component>
+</project>

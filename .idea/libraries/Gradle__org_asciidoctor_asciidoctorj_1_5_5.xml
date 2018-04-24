@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: org.asciidoctor:asciidoctorj:1.5.5">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/asciidoctor/asciidoctorj/1.5.5/asciidoctorj-1.5.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

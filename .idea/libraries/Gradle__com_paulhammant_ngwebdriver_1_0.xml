@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: com.paulhammant:ngwebdriver:1.0">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/paulhammant/ngwebdriver/1.0/ngwebdriver-1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

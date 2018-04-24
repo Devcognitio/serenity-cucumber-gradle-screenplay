@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: net.serenity-bdd:serenity-cucumber:1.9.5">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-cucumber/1.9.5/36b69f7ab95d37b641560840cb71528426600f16/serenity-cucumber-1.9.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-cucumber/1.9.5/178d5e709d2cc4ca00d4c38250f76b1d8594a509/serenity-cucumber-1.9.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
