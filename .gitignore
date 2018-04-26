@@ -18,3 +18,9 @@
 .idea/
 *.iml
 out/
+
+#Serenity
+target/
+
+#gradle
+.gradle/

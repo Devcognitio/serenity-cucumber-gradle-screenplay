@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Consultar tiquetes solo ida" tests="1" skipped="1" failures="0" errors="0" timestamp="2018-04-26T18:03:45" hostname="jennifer-K401UQ" time="48.599">
+  <properties/>
+  <testcase name="Jennifer quiere viajar de Medellin a San Andres y quiere ver los vuelos disponibles" classname="Consultar tiquetes solo ida" time="48.599">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Apr 26, 2018 1:03:46 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 20625
+Only local connections are allowed.
+Apr 26, 2018 1:03:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+[Test worker] INFO net.serenitybdd.core.Serenity - TEST PENDING
+[Test worker] INFO net.serenitybdd.core.Serenity - 
+          __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
+ _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
+(_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
+ |_____/ /     | | | |___ ___) || |   |  __/| |___| |\  | |_| | || |\  | |_| |
+(_)   /_/      |_| |_____|____/ |_|   |_|   |_____|_| \_|____/___|_| \_|\____|
+                                                                                
+
+TEST PENDING: Jennifer quiere viajar de Medellin a San Andres y quiere ver los vuelos disponibles
+---------------------------------------------------------------------------------
+]]></system-err>
+</testsuite>
