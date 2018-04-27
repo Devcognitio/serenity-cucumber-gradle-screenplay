@@ -25,23 +25,10 @@ dependencies {
     compile 'net.serenity-bdd:serenity-cucumber:1.9.5'
     compile 'net.serenity-bdd:serenity-screenplay:1.9.9'
     compile 'net.serenity-bdd:serenity-screenplay-webdriver:1.9.9'
-    //compile 'io.cucumber:cucumber-jvm:2.4.0'
-    //compile 'io.cucumber:cucumber-java:2.4.0'
-    //compile 'io.cucumber:cucumber-core:2.4.0'
-    //compile 'io.cucumber:gherkin:5.0.0'
-    //compile group: 'io.cucumber', name: 'cucumber-junit', version: '2.4.0'
-    //compile group: 'io.cucumber', name: 'cucumber-jvm', version: '2.4.0', ext: 'pom'
-
-
-
-
-
 
     testCompile 'junit:junit:4.12'
     testCompile 'org.assertj:assertj-core:3.9.1'
     testCompile 'org.slf4j:slf4j-simple:1.7.7'
-
-   // compile 'net.serenity-bdd:serenity-gradle-plugin:1.9.9'
 }
 
 gradle.startParameter.continueOnFailure = true  

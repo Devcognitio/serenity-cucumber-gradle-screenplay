@@ -1,7 +1,7 @@
 package com.devcognitio.screenplay.avianca.tasks;
 
 import com.devcognitio.screenplay.avianca.interactions.SeleccionarCiudad;
-import com.devcognitio.screenplay.avianca.model.builders.SeleccionarItinerarioBuilder;
+import com.devcognitio.screenplay.avianca.model.SeleccionarItinerarioBuilder;
 import com.devcognitio.screenplay.avianca.user_interface.DetallesDelViaje;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;

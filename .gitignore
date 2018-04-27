@@ -21,6 +21,7 @@ out/
 
 #Serenity
 target/
+build/
 
 #gradle
 .gradle/

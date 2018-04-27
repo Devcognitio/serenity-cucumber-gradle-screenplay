@@ -1,7 +1,6 @@
 package com.devcognitio.screenplay.avianca.interactions;
 
-import com.devcognitio.screenplay.avianca.model.builders.CiudadBuilder;
-import com.devcognitio.screenplay.avianca.model.builders.FechaBuilder;
+import com.devcognitio.screenplay.avianca.model.CiudadBuilder;
 import com.devcognitio.screenplay.avianca.user_interface.DetallesDelViaje;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Interaction;

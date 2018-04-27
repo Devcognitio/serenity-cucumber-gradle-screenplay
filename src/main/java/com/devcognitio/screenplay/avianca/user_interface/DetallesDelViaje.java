@@ -22,4 +22,7 @@ public class DetallesDelViaje {
     public static final Target FECHA_DE_SALIDA = Target.the("la fecha de salida")
             .locatedBy("//td[contains(@data-month, '{0}')]//a[.='{1}']");
 
+    public static final Target BOTON_CONSULTA = Target.the("el botón de consulta de vuelos")
+            .locatedBy("//input[@value='Buscar vuelos']");
+
 }

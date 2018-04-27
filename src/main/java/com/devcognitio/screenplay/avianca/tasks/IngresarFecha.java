@@ -1,6 +1,6 @@
 package com.devcognitio.screenplay.avianca.tasks;
 
-import com.devcognitio.screenplay.avianca.model.builders.FechaBuilder;
+import com.devcognitio.screenplay.avianca.model.FechaBuilder;
 import com.devcognitio.screenplay.avianca.model.busqueda.FechaDeSalida;
 import com.devcognitio.screenplay.avianca.user_interface.DetallesDelViaje;
 import net.serenitybdd.screenplay.Actor;
@@ -22,7 +22,7 @@ public class IngresarFecha implements Task {
     }
 
     @Override
-    @Step("{0} ingresa la fecha #fechaDeSalida")
+    @Step("{0} ingresa la fecha de salida")
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
                 Click.on(opcionCalendario),

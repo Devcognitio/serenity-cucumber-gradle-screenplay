@@ -1,4 +1,4 @@
-package com.devcognitio.screenplay.avianca.model.builders;
+package com.devcognitio.screenplay.avianca.model;
 
 import com.devcognitio.screenplay.avianca.tasks.SeleccionarItinerario;
 import net.serenitybdd.screenplay.Performable;

@@ -1,6 +1,5 @@
-package com.devcognitio.screenplay.avianca.model.builders.busqueda;
+package com.devcognitio.screenplay.avianca.model.busqueda;
 
-import com.devcognitio.screenplay.avianca.model.busqueda.FechaDeSalida;
 import com.devcognitio.screenplay.avianca.tasks.busqueda.BuscarVuelosSoloIda;
 import net.serenitybdd.screenplay.Performable;
 

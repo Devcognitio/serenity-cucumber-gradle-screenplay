@@ -27,7 +27,8 @@ public class BuscarVuelosSoloIda implements Task {
         actor.attemptsTo(
                 Click.on(DetallesDelViaje.OPCION_SOLO_IDA),
                 SeleccionarItinerario.de(origen).a(destino),
-                IngresarFecha.de(fechaDeSalida).en(DetallesDelViaje.BOTON_CALENDARIO_SALIDA)
+                IngresarFecha.de(fechaDeSalida).en(DetallesDelViaje.BOTON_CALENDARIO_SALIDA),
+                Click.on(DetallesDelViaje.BOTON_CONSULTA)
         );
 
     }
