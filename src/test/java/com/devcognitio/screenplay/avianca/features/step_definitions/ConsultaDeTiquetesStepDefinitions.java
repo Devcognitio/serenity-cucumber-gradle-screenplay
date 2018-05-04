@@ -1,5 +1,6 @@
 package com.devcognitio.screenplay.avianca.features.step_definitions;
 
+import com.devcognitio.screenplay.avianca.events.EnUnFrame;
 import com.devcognitio.screenplay.avianca.model.busqueda.BuscarVuelos;
 import com.devcognitio.screenplay.avianca.model.busqueda.FechaDeSalida;
 import com.devcognitio.screenplay.avianca.tasks.Navegar;
@@ -7,7 +8,6 @@ import cucumber.api.java.Before;
 import cucumber.api.java.es.Cuando;
 import cucumber.api.java.es.Dado;
 import cucumber.api.java.es.Entonces;
-import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
 
@@ -45,8 +45,8 @@ public class ConsultaDeTiquetesStepDefinitions {
 
     @Entonces("^ella deberia ver las siguientes opciones de clase de vuelo:$")
     public void ellaDeberiaLasSiguientesOpcionesDeClaseDeVuelo(List<String> clasesDeVuelo) throws Throwable {
-        theActorInTheSpotlight().should(
-                verQueCadaClaseDeVueloEstaEn(clasesDeVuelo)
-        );
+        EnUnFrame.llamado("FrameAmadeus")
+                .entonces(theActorInTheSpotlight())
+                .espera(verQueCadaClaseDeVueloEstaEn(clasesDeVuelo));
     }
 }
