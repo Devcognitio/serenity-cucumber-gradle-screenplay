@@ -1,6 +1,5 @@
-tasks.withType(JavaCompile) {
-    options.encoding = 'UTF-8'
-}
+group 'com.devcognitio.screenplay.avianca'
+version '1.0-SNAPSHOT'
 
 repositories {
     mavenLocal()
@@ -22,6 +21,11 @@ apply plugin: 'eclipse'
 apply plugin: 'idea'
 apply plugin: 'net.serenity-bdd.aggregator'
 
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+sourceCompatibility = 1.8
 
 dependencies {
     compile 'net.serenity-bdd:serenity-core:1.9.9'

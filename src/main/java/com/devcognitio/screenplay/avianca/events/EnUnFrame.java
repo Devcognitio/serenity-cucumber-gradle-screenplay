@@ -18,7 +18,7 @@ public class EnUnFrame {
 
     public static EnUnFrame llamado(String nombre) {
         WebDriver driver  = Serenity.getWebdriverManager().getCurrentDriver();
-        driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+        driver.manage().timeouts().pageLoadTimeout(1, TimeUnit.MINUTES);
         driver.switchTo().frame(nombre);
         return new EnUnFrame();
     }
