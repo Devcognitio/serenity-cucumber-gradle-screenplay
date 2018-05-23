@@ -3,12 +3,7 @@ package com.devcognitio.screenplay.avianca.events;
 import net.serenitybdd.core.Serenity;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Consequence;
-import net.serenitybdd.screenplay.waits.WaitUntil;
-import net.serenitybdd.screenplay.waits.WaitUntilTargetIsReady;
-import org.apache.tools.ant.taskdefs.WaitFor;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.remote.server.handler.ImplicitlyWait;
-import org.openqa.selenium.support.ui.Wait;
 
 import java.util.concurrent.TimeUnit;
 
